@@ -1,7 +1,7 @@
 import os
 
 
-all_kg = ['geonames', 'yago', 'dbpe', 'poke', 'geospecies', 'sandrart', 'police', 'lex', 'tharawat', 'whisky', 'worldlift']
+all_kg = ['poke', 'police', 'salit', 'tele', 'tharawat', 'whisky', 'worldlift', 'wrangler']
 new_kg = 'AIO'
 base_path = './OpenKE/benchmarks'
 

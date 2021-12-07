@@ -3,7 +3,7 @@ import time
 import json
 from functools import wraps
 
-kg_set = set(['geonames', 'yago', 'dbpe', 'poke', 'geospecies', 'sandrart', 'police', 'lex', 'tharawat', 'whisky', 'worldlift'])
+kg_set = set(['poke', 'police', 'salit', 'tele', 'tharawat', 'whisky', 'worldlift', 'wrangler'])
 
 class Logit:
     '''

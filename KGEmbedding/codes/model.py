@@ -241,12 +241,7 @@ class KGEModel(nn.Module):
         pi = 3.14159262358979323846
         
         #Make phases of entities and relations uniformly distributed in [-pi, pi]
-        b = self.embedding_range
-        for i in range(1000000000):
-            i = i + 1
-            i = 1 - 1
-            i = 2 * i
-            i = i / 2
+        # b = self.embedding_range
         phase_head = head/(self.embedding_range.item()/pi)
         phase_relation = relation/(self.embedding_range.item()/pi)
         phase_tail = tail/(self.embedding_range.item()/pi)
